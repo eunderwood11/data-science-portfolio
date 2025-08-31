@@ -14,7 +14,7 @@ Here is a breakdown of the projects included in this portfolio:
 
 * **MySQL Cafe Database**
     * *Description:* Database design and querying project where I created a relational schema for a cafe and wrote complex SQL queries.
-    * `**Skills:**` MySQL Workbench, SQL
+    * **Skills:** MySQL Workbench, SQL
     * **[View Project]**(`https://github.com/eunderwood11/data-science-portfolio/cafedatabase/tree/main`)
 
 ---
