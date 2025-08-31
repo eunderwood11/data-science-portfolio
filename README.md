@@ -38,7 +38,7 @@ The projects in this portfolio showcase my proficiency in the following tools an
 
 I am open to new opportunities and collaborations. Feel free to connect with me!
 
-* **LinkedIn Profile**: `(https://www.linkedin.com/in/emily-e-underwood/)`
+* **LinkedIn Profile**: `https://www.linkedin.com/in/emily-e-underwood/`
 * **Email:** `emily.underwood@gmail.com`
 
 
