@@ -4,3 +4,4 @@ Our database is modeled after a local café that serves coffee, tea, and light m
 
 We began by identifying key real-world elements in a café: locations, tables, menu items, customers, orders, and employees. From there, we created tables in MySQL Workbench, defined relationships, and ensured that every table had at least one connection. We ensured referential integrity by foreign keys which were not nullable: for example, you cannot enter an order with a menu item that does not exist.
 
+To recreate the database, use the file called cafeProjectDump.sql. 
