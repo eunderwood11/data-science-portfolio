@@ -31,6 +31,10 @@ The projects in this portfolio showcase my proficiency in the following tools an
 ![Excel](https://img.shields.io/badge/-Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Statsmodels](https://img.shields.io/badge/statsmodels-4D5D6E?style=for-the-badge)
+![RegEx](https://img.shields.io/badge/regex-582C5D?style=for-the-badge)
+![OS Module](https://img.shields.io/badge/OS%20Module-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ---
 
