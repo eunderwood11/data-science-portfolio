@@ -1,0 +1,106 @@
+totalHours = 0.0
+averageHours = 0.0
+otAmount = 0.0
+ 
+# Input
+ 
+# Variables
+employee = input('Employee Name: ')
+rate = float(input('Hourly Rate: '))
+week1 = float(input('Enter Hours Worked for Week 1: '))
+week2 = float(input('Enter Hours Worked for Week 2: '))
+week3 = float(input('Enter Hours Worked for Week 3: '))
+week4 = float(input('Enter Hours Worked for Week 4: '))
+overtimeMessage = ''
+ 
+# Constants
+WEEKS = 4
+STANDARD_HOURS = 160 
+ 
+# Processing
+totalHours = week1 + week2 + week3 + week4
+averageHours = totalHours/WEEKS
+
+if totalHours>STANDARD_HOURS:
+    regularHours = STANDARD_HOURS
+    otHours = totalHours-STANDARD_HOURS
+    overtimeMessage = '\n' + employee + ' worked '+ str(otHours) + ' hours of overtime.' 
+    otRate = round(rate*1.05, 2)
+    otAmount = round(otHours*otRate, 2)
+else:
+    regularHours = totalHours
+    overtimeMessage = '\n' + employee + ' worked no overtime.' 
+regularAmount = regularHours*rate
+invoiceAmount = regularHours + otAmount
+
+
+# Output
+print(overtimeMessage) 
+print('\nInvoice')
+print('Resource: ', employee, '\tAverage weekly hours: ', format(averageHours, '.2f'), sep='')
+print('\nTotal billable hours: ', format(totalHours, '.2f'), '\tRate: $', format(rate, '.2f'), sep='')
+print('Regular hours: ', format(regularHours, ',.2f'), ' @ $', format(rate, '.2f'), sep='', end='')
+print('\t= $', format(regularAmount, ',.2f'), sep='')
+if totalHours>STANDARD_HOURS:
+    print('Overtime hours: ', format(otHours, ',.2f'), ' @ $', format(otRate, '.2f'), sep='', end='')
+    print('\t= $', format(otAmount, ',.2f'), sep='')
+print('Amount Due: $', format(invoiceAmount, ',.2f'), sep='')
+
+ 
+Jk guys I think I actually got it this time: 
+# -----------------------------------------------------------------------
+# Author: Emily Underwood, Ryan Moore, Annie Jacobson, Dominique Santos
+# Program: Program 1 
+# Due: February 28, 2024
+#
+# Description: This program accepts billing information for an
+# employee and produces an Invoice displaying all relevant information.
+# -----------------------------------------------------------------------
+
+# Constants
+weeks = 4
+standardHours = 160
+
+# Input
+employee = input('Employee Name: ')
+rate = float(input('Hourly Rate: '))
+week1 = float(input('Enter Hours Worked for Week 1: '))
+week2 = float(input('Enter Hours Worked for Week 2: '))
+week3 = float(input('Enter Hours Worked for Week 3: '))
+week4 = float(input('Enter Hours Worked for Week 4: '))
+
+# Processing
+totalHours = week1 + week2 + week3 + week4
+averageHours = totalHours / weeks
+
+regularHours = min(totalHours, standardHours)
+overtimeHours = max(totalHours - standardHours, 0)
+
+if overtimeHours > 0:
+    otRate = round(rate * 1.05, 2)
+    overtimeAmount = round(overtimeHours * otRate, 2)
+    overtimeMessage = f'\n{employee} worked {overtimeHours:.2f} hours of overtime.'
+    regularAmount = regularHours * rate
+    invoiceAmount = regularAmount + overtimeAmount
+
+    # Output
+    print(overtimeMessage) 
+    print('\nInvoice')
+    print(f'Resource: {employee}\tAverage weekly hours: {averageHours:.2f}')
+    print(f'\nTotal billable hours: {totalHours:.2f}\tRate: ${rate:.2f}')
+    print(f'Regular hours: {regularHours:.2f} , ${rate:.2f}\t= ${regularAmount:.2f}')
+    print(f'Overtime hours: {overtimeHours:.2f} @ ${otRate:.2f}\t= ${overtimeAmount:,.2f}')
+    print(f'Amount Due: ${invoiceAmount:,.2f}')
+
+else:
+    regularAmount = regularHours * rate
+    invoiceAmount = regularAmount
+
+    # Output
+    overtimeMessage = f'\n{employee} worked no overtime.'
+    print(overtimeMessage) 
+    print('\nInvoice')
+    print(f'Resource: {employee}\tAverage weekly hours: {averageHours:.2f}')
+    print(f'\nTotal billable hours: {totalHours:.2f}\tRate: ${rate:.2f}')
+    print(f'Regular hours: {regularHours:.2f} @ ${rate:.2f}\t= ${regularAmount:,.2f}')
+    print(f'Amount Due: ${invoiceAmount:,.2f}')
