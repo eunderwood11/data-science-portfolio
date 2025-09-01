@@ -20,7 +20,7 @@ Here is a breakdown of the projects included in this portfolio:
 * **Python Machine Learning Project**
    * *Description:* A project where I cleaned, analyzed, and modeled a public student loan dataset in order to gain experience in modeling real-world data and determining whether certain models are applicable to a dataset.
    * **Skills:** Python, Pandas, Matplotlib, Seaborn, Scikit-learn, RegEx, Statsmodels
-   * **[View Project]('https://github.com/eunderwood11/data-science-portfolio/cafedatabase/tree/main')
+   * **[View Project]('https://github.com/eunderwood11/data-science-portfolio/machine learning/tree/main')
 
 ---
 
