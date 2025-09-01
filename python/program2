@@ -1,0 +1,77 @@
+# ---------------------------------------------------------------------------------------------
+# Author: ISA 221-A-Team 2; Emily Underwood, Dominique Santos, Ryan Moore, and Annie Jacobson
+# Program: Program 2
+# Due: March 20, 2024
+#
+# Description: This program accepts billing information for an employee and produces an invoice
+# displaying all relevant information. In modification from Program #1, this program contains
+# parameters that prohibit invalid data being inputted and will prompt the user if they want
+# to enter data for another employee upon completion of an invoice. 
+# ---------------------------------------------------------------------------------------------
+
+# Constants
+WEEKS = 4
+STANDARD_HOURS = 160
+OVERTIME_RATE_MULTIPLIER = 1.05
+MIN_HOURLY_RATE = 20
+MIN_HOURS_PER_WEEK = 35
+MAX_HOURS_PER_WEEK = 80
+
+
+# Processing
+while True: #Loop to prompt user to input Employee Name
+    employee = input('Employee Name: ')
+    if not employee: #Check if Employee Name is not entered 
+        print("\nEmployee name must be entered.\n") #Error notifying user that Employee name has not been entered
+        continue #Continue to prompt user to input Employee name if one is not entered 
+
+    rate = 0 #Initializes rate variable
+    while rate < MIN_HOURLY_RATE:# Loop that ensures valid hourly rate 
+        rate = float(input('Hourly Rate: ')) 
+        if rate < MIN_HOURLY_RATE: #Check if hourly rate is less than minimum
+            print("Invalid Hourly Rate, must be at least $20.00/hour.\n") #Error notifying user that hourly rate is invalid
+
+    totalHours = 0 #Initializes totalHours variable 
+    for i in range(1, 5): #Loop through four weeks 
+        while True: #Loop that ensures valid week hours 
+            week_hours = float(input(f'Enter hours worked for week {i}: '))
+            if MIN_HOURS_PER_WEEK <= week_hours <= MAX_HOURS_PER_WEEK: #Check if week hours is within range 
+                totalHours += week_hours
+                break #End loop if valid hours are entered
+            else:
+                print(f"Invalid number of hours for Week {i}, must be between 35 and 80.\n") #Error notifying user that number of hours for week {i} is invalid 
+
+    averageHours = totalHours / WEEKS
+
+    regularHours = min(totalHours, STANDARD_HOURS)
+    overtimeHours = max(totalHours - STANDARD_HOURS, 0)
+
+    if overtimeHours > 0:
+        otRate = round(rate * OVERTIME_RATE_MULTIPLIER, 2)
+        overtimeAmount = round(overtimeHours * otRate, 2)
+        overtimeMessage = f'\n{employee} worked {overtimeHours:.2f} hours of overtime.'
+        regularAmount = regularHours * rate
+        invoiceAmount = regularAmount + overtimeAmount
+
+    else:
+        overtimeMessage = f'\n{employee} worked no overtime.'
+        regularAmount = regularHours * rate
+        invoiceAmount = regularAmount
+
+    # Output
+    print(overtimeMessage)
+    print('\nInvoice')
+    print(f'Resource: {employee}\tAverage weekly hours: {averageHours:.2f}')
+    print(f'\nTotal billable hours: {totalHours:.2f}\tRate: ${rate:.2f}')
+
+    if overtimeHours > 0:
+        print(f'Overtime hours: {overtimeHours:.2f} @ ${otRate:.2f}\t= ${overtimeAmount:,.2f}')
+
+    print(f'Regular hours: {regularHours:.2f} @ ${rate:.2f}\t= ${regularAmount:,.2f}')
+    print(f'Amount Due: ${invoiceAmount:,.2f}')
+
+    again = input('\nEnter another employee? ("y"=yes): ') #Ask user if they want to enter details for another employee
+    if again.lower() != "y": #Checks users input to determine if they want to input details for another employee
+        break
+    print() #Provides a space between the prompt to enter details for another employee and a new start of the input
+
