@@ -1,0 +1,84 @@
+Part 1
+
+def main():
+    name = readName()
+
+    score1 = readScore()
+    score2 = readScore()
+    score3 = readScore()
+
+    testAverage = (score1 + score2 + score3) / 3
+
+    formattedPrint(name, score1, score2, score3, testAverage)
+    
+def readName():
+    return input('Enter name: ')
+
+def readScore():
+    return int(input('Enter score: '))
+
+def formattedPrint(name, score1, score2, score3, testAverage):
+    print("\nName:",name, "\t1:",score1, "\t2:", score2, "\t3:", score3, "\tAvg:", testAverage)
+
+
+main()
+
+
+
+Part 2
+
+def main():
+    name = readName()
+    
+    score1, score2, score3 = readScore()
+
+    testAverage = (score1 + score2 + score3) / 3
+
+    formattedPrint(name, score1, score2, score3, testAverage)
+    
+def readName():
+    return input('Enter name: ')
+
+def readScore():
+    score1 = int(input("Enter test score: "))
+    score2 = int(input("Enter test score: "))
+    score3 = int(input("Enter test score: "))
+    return score1, score2, score3
+
+def formattedPrint(name, score1, score2, score3, testAverage):
+    print("\nName:",name, "\t1:",score1, "\t2:", score2, "\t3:", score3, "\tAvg:", testAverage)
+
+
+main()
+
+
+Average Program
+
+from myModule import *
+
+def main():
+    name = readName()
+    score1, score2, score3 = readScore()
+
+    testAverage = (score1 + score2 + score3) / 3
+
+    formattedPrint(name, score1, score2, score3, testAverage)
+
+main()
+
+
+myModule Program
+
+def readName():
+    return input('Enter name: ')
+
+def readScore():
+    score1 = int(input("Enter test score: "))
+    score2 = int(input("Enter test score: "))
+    score3 = int(input("Enter test score: "))
+    return score1, score2, score3
+
+def formattedPrint(name, score1, score2, score3, testAverage):
+    print("\nName:",name, "\t1:",score1, "\t2:", score2, "\t3:", score3, "\tAvg:", testAverage)
+
+
