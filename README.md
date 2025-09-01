@@ -25,7 +25,7 @@ Here is a breakdown of the projects included in this portfolio:
 * **Python Introductory Project**
    * *Description:* I wrote code that would create an ad-hoc report. Data is entered by the user, written to a file, and passed through functions to determine the total hours worked over four weeks, how many overtime hours there were, and total amount due to the employee.
    * **Skills:** Python
-   * **[View Project]**(`https://github.com/eunderwood11/data-science-portfolio/machine learning/tree/main`)
+   * **[View Project]**(`https://github.com/eunderwood11/data-science-portfolio/python/adhocReport/tree/main`)
  
 
 ---
