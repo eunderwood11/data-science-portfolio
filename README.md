@@ -16,6 +16,11 @@ Here is a breakdown of the projects included in this portfolio:
     * *Description:* Database design and querying project where I created a relational schema for a cafe and wrote complex SQL queries. The goal was to design a system that captures the core functions of a café while keeping the structure simple and easy to understand.
     * **Skills:** MySQL Workbench, SQL
     * **[View Project]**(`https://github.com/eunderwood11/data-science-portfolio/cafedatabase/tree/main`)
+ 
+* **Python Machine Learning Project**
+   * *Description:* A project where I cleaned, analyzed, and modeled a public student loan dataset in order to gain experience in modeling real-world data and determining whether certain models are applicable to a dataset.
+   * **Skills:** Python, Pandas, Matplotlib, Seaborn, Scikit-learn, RegEx, Statsmodels
+   * **[View Project]('https://github.com/eunderwood11/data-science-portfolio/cafedatabase/tree/main')
 
 ---
 
