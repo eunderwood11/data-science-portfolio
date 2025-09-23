@@ -1,4 +1,5 @@
 In this project, I created a game of checkers in Python on a 6 by 6 grid. To run my code, you need to install my professor's library for games:
+
 pip install "git+https://github.com/bblais/Game" --upgrade
 
 A state in the game is represented by a 6 by 6 grid with values 0 (empty), 1 (player 1’s piece), 2 (player 2’s piece), 3 (player 1’s king), or 4 (player 2’s king. A move is represented by a length-2 list of integers representing one of 36 squares on the board.
