@@ -20,7 +20,7 @@ Here is a breakdown of the projects included in this portfolio:
 * **AI Checkers Project**
    * *Description:* I created a game of 6 by 6 checkers in Python.
    * **Skills:** Python
-   * **[View Project]**(`https://github.com/eunderwood11/data-science-portfolio/python/adhocReport/tree/main`)
+   * **[View Project]**(`https://github.com/eunderwood11/data-science-portfolio/tree/main/ai-robotics-lab`)
  
 * **Python Machine Learning Project**
    * *Description:* A project where I cleaned, analyzed, and modeled a public student loan dataset in order to gain experience in modeling real-world data and determining whether certain models are applicable to a dataset.
