@@ -1,16 +1,21 @@
 # Emily Underwood's Data Science Portfolio
 
-Welcome to my data science portfolio. This repository showcases a collection of my data science projects including homework assignments such as Python scripts, data visualizations, and SQL databases, demonstrating my skills in data analysis, visualization, and database management. My work specializes in using data-driven insights to solve practical business problems.
+Welcome to my data science portfolio. This repository showcases a collection of my data science projects including ML modeling, data visualizations, and SQL databases, demonstrating my skills in data analysis, visualization, modeling, and database management. My work specializes in using data-driven insights to solve practical business problems.
 
 ### Portfolio Overview
 
-This portfolio contains various projects covering the end-to-end data analysis workflow, from data cleaning and exploration to building insightful visualizations and designing robust database schemas.
+This portfolio contains various projects covering the end-to-end data analysis workflow, from data cleaning and exploration to building insightful, predictive models and designing robust database schemas.
 
 ---
 
 ### Projects
 
 Here is a breakdown of the projects included in this portfolio:
+
+* **CAPSTONE PROJECT: Life Expectancy Around the World**
+    * *Description:* Developing a predictive model for global life expectancy using sustainability indicators 
+    * **Skills:** PySpark
+    * **[View Project]**(`https://github.com/eunderwood11/data-science-portfolio/tree/79a3d254f3a91251cb693145a634936916b0f730/capstone-projects`)
 
 * **MySQL Cafe Database**
     * *Description:* Database design and querying project where I created a relational schema for a cafe and wrote complex SQL queries. The goal was to design a system that captures the core functions of a café while keeping the structure simple and easy to understand.
