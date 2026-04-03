@@ -49,6 +49,7 @@ Here is a breakdown of the projects included in this portfolio:
 
 The projects in this portfolio showcase my proficiency in the following tools and technologies:
 
+![PySpark](https://img.shields.io/badge/-PySpark-3776AB?style=flat&logo=python&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/-SQL-4479A3?style=flat&logo=mysql&logoColor=white)
 ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white)
