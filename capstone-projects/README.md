@@ -1,4 +1,5 @@
 # Global Life Expectancy & Sustainability: A Predictive Analytics Study
+Walk-through presentation: https://youtu.be/hSe9Y5_UCDw?si=5Ro1RzO-22lldtf4
 
 ## 📌 Project Overview
 This project leverages **PySpark** and high-dimensional sustainability data (2000–2018) from the World Sustainability Dataset (found at https://www.kaggle.com/datasets/truecue/worldsustainabilitydataset?resource=download) to identify the core environmental, economic, and social drivers of global life expectancy. By integrating large-scale data processing with machine learning, the study explores how infrastructure, education, and resource management impact human longevity across different geopolitical landscapes.
