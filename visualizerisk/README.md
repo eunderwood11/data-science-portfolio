@@ -1,4 +1,4 @@
-This folder contains my project over a ten-week internship with Visualize Risk, LLC.
+This folder contains my project over a ten-week internship with Visualize Risk, LLC. The information here was authorized to be shared by the owners for demonstration purposes.
 
 1. Automated Data Pipelines & Customer Lifecycle System: Built ten Power Automate cloud flows to automatically ingest lead data from Microsoft Marketplace and SharePoint into Dataverse, process customer and contact records, and manage entitlement lifecycles (trials, active licenses, expirations).
 
