@@ -12,6 +12,11 @@ This portfolio contains various projects covering the end-to-end data analysis w
 
 Here is a breakdown of the projects included in this portfolio:
 
+* **INTERNSHIP PROJECT: Customer Lifecycle System**
+    * *Description:* Designing a custom Dataverse database and automating lifecycle marketing and communications using Microsoft Power Platform. Reporting dashboards and documentation included.
+    * **Skills:** Power BI, Power Automate, Dataverse, Copilot
+    * **[View Project]**(`https://github.com/eunderwood11/data-science-portfolio/tree/main/visualizerisk`)
+
 * **CAPSTONE PROJECT: Life Expectancy Around the World**
     * *Description:* Developing a predictive model for global life expectancy using sustainability indicators 
     * **Skills:** PySpark
@@ -42,26 +47,36 @@ Here is a breakdown of the projects included in this portfolio:
    * **Skills:** Python
    * **[View Project]**(`https://github.com/eunderwood11/data-science-portfolio/python/adhocReport/tree/main`)
  
-
 ---
 
 ### Skills & Technologies
 
-The projects in this portfolio showcase my proficiency in the following tools and technologies:
-
-![PySpark](https://img.shields.io/badge/-PySpark-3776AB?style=flat&logo=python&logoColor=white)
+**Programming & Languages**  
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![PySpark](https://img.shields.io/badge/-PySpark-E25A1C?style=flat&logo=apachespark&logoColor=white)
 ![SQL](https://img.shields.io/badge/-SQL-4479A3?style=flat&logo=mysql&logoColor=white)
-![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![RegEx](https://img.shields.io/badge/regex-582C5D?style=flat)
+
+**BI, Cloud & Business Automation**  
+![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![Power Automate](https://img.shields.io/badge/-Power%20Automate-0078D4?style=flat&logo=powerautomate&logoColor=white)
+![Dataverse](https://img.shields.io/badge/-Microsoft%20Dataverse-742774?style=flat&logo=microsoft&logoColor=white)
+![Copilot](https://img.shields.io/badge/-Microsoft%20Copilot-0078D4?style=flat&logo=microsoftcopilot&logoColor=white)
 ![Tableau](https://img.shields.io/badge/-Tableau-E97627?style=flat&logo=tableau&logoColor=white)
 ![Excel](https://img.shields.io/badge/-Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)
+
+**Data Science & Machine Learning Libraries**  
+![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?style=flat)
+![Seaborn](https://img.shields.io/badge/-Seaborn-3776AB?style=flat)
+![Statsmodels](https://img.shields.io/badge/statsmodels-4D5D6E?style=flat)
+
+**Databases & Developer Tools**  
+![MySQL](https://img.shields.io/badge/-MySQL%20Workbench-4479A3?style=flat&logo=mysql&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![Statsmodels](https://img.shields.io/badge/statsmodels-4D5D6E?style=flat)
-![RegEx](https://img.shields.io/badge/regex-582C5D?style=flat)
-![OS Module](https://img.shields.io/badge/OS%20Module-3776AB?style=flat&logo=python&logoColor=white)
 
 ---
 
